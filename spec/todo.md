@@ -1,7 +1,7 @@
 | Step    | ✔︎  | Description                        |
 |---------|-----|------------------------------------|
 | **S1**  | [x] | Project Bootstrap                  |
-| **S2**  | [ ] | GitHub Actions CI                  |
+| **S2**  | [x] | GitHub Actions CI                  |
 | **S3**  | [ ] | Render Dot Grid                    |
 | **S4**  | [ ] | Parameterise grid size             |
 | **S5**  | [ ] | Geometry Utils – Line Intersection |
