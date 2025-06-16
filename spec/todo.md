@@ -3,7 +3,7 @@
 | **S1**  | [x] | Project Bootstrap                  |
 | **S2**  | [x] | GitHub Actions CI                  |
 | **S3**  | [x] | Render Dot Grid                    |
-| **S4**  | [ ] | Parameterise grid size             |
+| **S4**  | [x] | Parameterise grid size             |
 | **S5**  | [ ] | Geometry Utils – Line Intersection |
 | **S6**  | [ ] | Basic Line Drawing                 |
 | **S7**  | [ ] | Line Validity Enforcement          |

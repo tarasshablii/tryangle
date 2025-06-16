@@ -15,22 +15,22 @@ describe('Board component', () => {
     container.appendChild(svg);
 
     // Add the board to the SVG
-    const board = Board(); // Using default props (5x5)
+    const board = Board({ rows: 10, cols: 10 }); // Using 10x10 grid
     svg.appendChild(board);
 
     // Add the container to the document body
     document.body.appendChild(container);
   });
 
-  it('should render a 5x5 grid with 25 dots by default', () => {
+  it('should render a 10x10 grid with 100 dots', () => {
     // Get the board container
     const boardContainer = getByTestId(document, 'board-container');
 
     // Get all circles within the SVG using querySelector
     const dots = boardContainer.querySelectorAll('circle.dot');
 
-    // Assert there are exactly 25 dots (5x5 grid)
-    expect(dots.length).toBe(25);
+    // Assert there are exactly 100 dots (10x10 grid)
+    expect(dots.length).toBe(100);
 
     // Additional assertions to verify the grid structure
     expect(dots[0].getAttribute('r')).toBe('8'); // Check radius
