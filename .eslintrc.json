@@ -12,6 +12,10 @@
     "sourceType": "module"
   },
   "rules": {
-    "prettier/prettier": "error"
-  }
+    "prettier/prettier": "error",
+    "import/no-unresolved": ["error", {
+      "ignore": ["vitest/config"]
+    }]
+  },
+  "ignorePatterns": ["dist/*"]
 }

@@ -4,7 +4,7 @@
 | **S2**  | [x] | GitHub Actions CI                  |
 | **S3**  | [x] | Render Dot Grid                    |
 | **S4**  | [x] | Parameterise grid size             |
-| **S5**  | [ ] | Geometry Utils – Line Intersection |
+| **S5**  | [x] | Geometry Utils – Line Intersection |
 | **S6**  | [ ] | Basic Line Drawing                 |
 | **S7**  | [ ] | Line Validity Enforcement          |
 | **S8**  | [ ] | Triangle Detection                 |
